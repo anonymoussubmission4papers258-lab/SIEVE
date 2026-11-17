@@ -12,10 +12,16 @@ virtual environments, or access credentials.
 ## Start here
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-tested.txt
 python tests/test_reference_numpy.py
 python tests/test_torch.py
 ```
+
+The tested environment used Python 3.12, PyTorch 2.8.0 and Transformers 4.52.4.
+Choose the PyTorch CPU/CUDA distribution suitable for your machine. The broader
+`requirements.txt` lists minimum dependencies; newer versions are not implied to
+have passed this release's tests. DINOv3 support in the historical source requires
+newer Transformers and is outside the supplied DINOv2 checkpoint configuration.
 
 Download `SIEVE_checkpoints_anonymous.zip` from this repository's Releases and
 extract it at the repository root. `checkpoints_manifest.json` lists hashes,

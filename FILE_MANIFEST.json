@@ -261,18 +261,23 @@
   },
   {
     "path": "README.md",
-    "bytes": 4832,
-    "sha256": "1cbb19c48b5483b253e0e629ac46112b46a1a6431eb41fb4098e84546f7c0c16"
+    "bytes": 5244,
+    "sha256": "705b740d13f58626ba36830cf66d04faca8cd6b2e14ed8d147851f65f4ff3a22"
   },
   {
     "path": "RELEASE_VALIDATION.json",
-    "bytes": 1707,
-    "sha256": "b695ce0683ba8c6dea06e63131c89fcb50c761fe79bf29ccb8a534edb5ea929f"
+    "bytes": 1835,
+    "sha256": "afeda234b3e47b942a5b680fcbbb6d7f0bb09c2d16986c2b5bf9cc403ab57843"
+  },
+  {
+    "path": "requirements-tested.txt",
+    "bytes": 163,
+    "sha256": "b9d466d6f5410e45c8466a80748c2a024410539be24351d58efbffb1a21f7bd8"
   },
   {
     "path": "requirements.txt",
-    "bytes": 149,
-    "sha256": "6342cb164994df6ffb962256b58cb9bdb5422bb10792f845dc03c698323df4eb"
+    "bytes": 151,
+    "sha256": "9b128692fa9908da0ccfbfa352b27a92dfa9364a20d74194cc3471e4591a80cf"
   },
   {
     "path": "scripts/benchmark.py",
