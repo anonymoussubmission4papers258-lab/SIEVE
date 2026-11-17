@@ -1,0 +1,83 @@
+{
+  "_comment": "Replace the paths. Panels follow the SIEVE paper (5 datasets, 8 panels) plus SpectralWaste (RGB + SWIR, no SRF). HyTex-B/C are evaluation-only panels that reuse HyTex-A training. obs_files must name the shared observation files so every method sees identical inputs; if they are missing the LR-HSI is synthesised with a fixed seed and the evaluation log says lr_source=synthesised.",
+  "panels": [
+    {
+      "name": "PCB-SR",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01,
+      "obs_files": {
+        "rgb": "rgb.npy",
+        "lr": "hsi.npy"
+      },
+      "path_map": []
+    },
+    {
+      "name": "PCB-DN",
+      "manifest": "data/manifest.json",
+      "scale": 1,
+      "sigma": 0.04,
+      "obs_files": {
+        "rgb": "rgb.npy",
+        "lr": "hsi.npy"
+      }
+    },
+    {
+      "name": "HyTex-A",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "HyTex-B",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "HyTex-C",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "LIB-HSI",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "Chikusei",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "Harvard",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01
+    },
+    {
+      "name": "Chikusei-native",
+      "manifest": "data/manifest.json",
+      "observation_manifests": {
+        "val": "data/manifest.json"
+      },
+      "obs_files": {
+        "rgb": "rgb.npy",
+        "lr": "hsi.npy"
+      }
+    },
+    {
+      "name": "SpectralWaste",
+      "manifest": "data/manifest.json",
+      "scale": 4,
+      "sigma": 0.01,
+      "srf": "none",
+      "obs_files": {
+        "rgb": "rgb.npy"
+      }
+    }
+  ]
+}

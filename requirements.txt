@@ -1,0 +1,11 @@
+torch>=2.6
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.21
+scikit-learn>=1.3
+transformers>=4.56,<5
+safetensors
+h5py
+Pillow
+psutil
+# optional export: onnx

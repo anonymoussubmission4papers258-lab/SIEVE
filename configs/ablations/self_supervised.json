@@ -1,0 +1,6 @@
+{
+  "_comment": "No HR supervision: held-out LR evidence + VFM-L prior only.",
+  "train": {
+    "w_hr": 0.0
+  }
+}

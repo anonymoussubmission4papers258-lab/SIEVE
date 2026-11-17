@@ -1,0 +1,6 @@
+{
+  "_comment": "Part codes from RGB k-means instead of the VFM (is the VFM replaceable by colour?).",
+  "model": {
+    "part_source": "color"
+  }
+}

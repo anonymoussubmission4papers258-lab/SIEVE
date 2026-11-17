@@ -1,0 +1,32 @@
+{
+  "_comment": "Stage B: edge student (tiny CNN, no ViT at inference) distilled from a stage-A checkpoint; parts/part_dim must equal stage A. adapter 'conv' is the cheapest; 'xattn' also runs on the edge (chunked attention).",
+  "model": {
+    "backbone": "tiny",
+    "adapter": "conv",
+    "parts": 128,
+    "part_dim": 16,
+    "slots": 32,
+    "part_source": "vfm",
+    "coupling_gate": true
+  },
+  "train": {
+    "iterations": 20000,
+    "time_budget_hours": 3.0,
+    "batch": 8,
+    "crop": 128,
+    "lr": 0.002,
+    "warmup": 300,
+    "w_ho": 1.0,
+    "w_ho_material": 0.25,
+    "w_gate": 1.0,
+    "w_hr": 1.0,
+    "w_hr_coupled": 0.5,
+    "w_rel": 0.0,
+    "w_part": 0.0,
+    "w_usage": 0.0,
+    "w_kd_part": 1.0,
+    "w_kd_material": 1.0,
+    "w_kd_gates": 1.0,
+    "amp": true
+  }
+}

@@ -1,0 +1,4 @@
+DINOv2
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Upstream model: facebook/dinov2-small.
+The released Stage-A checkpoints include adapted model parameters (LoRA and spectral-twin attention); the original pretrained parameters are retained within those model states.

@@ -1,0 +1,61 @@
+{
+  "schema": "ANONYMOUS_RELEASE_VALIDATION_V1",
+  "anonymity_pattern_scan_passed": true,
+  "files_scanned": 94,
+  "checkpoint_metadata_scanned": 13,
+  "all13_checkpoint_numeric_exports_exact": true,
+  "selected_model_checks": [
+    {
+      "checkpoint": "stageA_30000.pt",
+      "strict_load": true,
+      "model_tensors": 368,
+      "offline": true
+    },
+    {
+      "checkpoint": "stageB_20000.pt",
+      "strict_load": true,
+      "model_tensors": 234,
+      "offline": true
+    },
+    {
+      "checkpoint": "ablation_full.pt",
+      "strict_load": true,
+      "model_tensors": 368,
+      "offline": true
+    },
+    {
+      "checkpoint": "ablation_no_coupling.pt",
+      "strict_load": true,
+      "model_tensors": 350,
+      "offline": true
+    },
+    {
+      "checkpoint": "ablation_no_hsi_adapter.pt",
+      "strict_load": true,
+      "model_tensors": 355,
+      "offline": true
+    }
+  ],
+  "synthetic_CPU_inference": {
+    "shape": [
+      32,
+      32,
+      8
+    ],
+    "finite": true,
+    "repeat_bitwise_equal": true
+  },
+  "numpy_reference_tests": "passed",
+  "torch_core_and_synthetic_pipeline_tests": "passed on CPU",
+  "benchmark_results_included": false,
+  "raw_data_included": false,
+  "notes": [
+    "No original experiment was retrained or rescored.",
+    "Synthetic release validation only.",
+    "No authorship identity or credentials were detected by the documented pattern scan; this is not an unconditional anonymity guarantee."
+  ],
+  "legacy_torch_test_optional_HF_branch": "not exercised by generic tiny-model suite; five real model strict loads and primary HF inference separately passed",
+  "model_count": 13,
+  "line_endings": "LF",
+  "original_math_code_retained": true
+}

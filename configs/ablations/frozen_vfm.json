@@ -1,0 +1,6 @@
+{
+  "_comment": "Frozen ViT: no LoRA and no adapted blocks (the VFM only provides features; with adapter xattn the adapter then sits in front of the last block).",
+  "model": {
+    "lora_blocks": 0
+  }
+}

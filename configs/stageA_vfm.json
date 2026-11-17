@@ -1,0 +1,44 @@
+{
+  "_comment": "Stage A: joint RGB+HSI VFM (DINOv2/DINOv3 small + LoRA on the last 4 blocks + spectral-twin attention). hf_path: local folder or HF id; DINOv3 needs transformers>=4.56. The time budget caps the run (the measured speed sets the iteration count).",
+  "model": {
+    "backbone": "hf",
+    "hf_path": "facebook/dinov2-small",
+    "hf_input_scale": 2.0,
+    "hf_max_side": 896,
+    "lora_blocks": 4,
+    "lora_rank": 8,
+    "lora_alpha": 16.0,
+    "adapter": "xattn",
+    "adapter_heads": 4,
+    "adapter_keys": 256,
+    "parts": 128,
+    "part_dim": 16,
+    "slots": 32,
+    "part_source": "vfm",
+    "coupling_gate": true
+  },
+  "routing": {
+    "ridge": 0.001,
+    "part_prior": 0.15,
+    "ridge_part": 0.001,
+    "part_rank": 4
+  },
+  "train": {
+    "iterations": 30000,
+    "time_budget_hours": 8.0,
+    "batch": 8,
+    "crop": 128,
+    "lr": 0.001,
+    "backbone_lr": 0.0002,
+    "warmup": 500,
+    "w_ho": 1.0,
+    "w_ho_material": 0.25,
+    "w_gate": 1.0,
+    "w_hr": 1.0,
+    "w_hr_coupled": 0.5,
+    "w_rel": 0.5,
+    "w_part": 1.0,
+    "w_usage": 0.1,
+    "amp": true
+  }
+}

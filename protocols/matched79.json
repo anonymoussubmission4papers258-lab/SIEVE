@@ -1,0 +1,1517 @@
+{
+  "schema": "MATCHED79_PORTABLE_V1",
+  "checkpoint": "stageA_30000.pt",
+  "crop": [
+    192,
+    192
+  ],
+  "bands": 32,
+  "mode": "default",
+  "tile": 256,
+  "amp": false,
+  "tf32": false,
+  "metric": "legacy32",
+  "cases": [
+    {
+      "index": 0,
+      "case_id": "pcb_sr4/pcb02",
+      "panel": "pcb_sr4",
+      "scene": "pcb02",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb02.npz",
+        "bytes": 661633,
+        "sha256": "bf9b6589fb36bc5c58d84bdeae3f81062a34b32256225e8c8620801d3dc58d87"
+      },
+      "reference": {
+        "path": "targets/pcb02.npz",
+        "bytes": 4210840,
+        "sha256": "59fec7c5a97808a30d65572ffba3397f23fd436ead17d77e4032a9e40967d317"
+      }
+    },
+    {
+      "index": 1,
+      "case_id": "pcb_sr4/pcb04",
+      "panel": "pcb_sr4",
+      "scene": "pcb04",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb04.npz",
+        "bytes": 641765,
+        "sha256": "1d1e37029a435b5a76a4c391171d3843d89679267fddcc9fa9945ae9df1acddf"
+      },
+      "reference": {
+        "path": "targets/pcb04.npz",
+        "bytes": 4059000,
+        "sha256": "ba81b735bf790491813deab28b2f0024513ddbb5d3344b0dcffc4917ab613b57"
+      }
+    },
+    {
+      "index": 2,
+      "case_id": "pcb_sr4/pcb07",
+      "panel": "pcb_sr4",
+      "scene": "pcb07",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb07.npz",
+        "bytes": 647725,
+        "sha256": "432ad8f86ccb2ea318b124388408fce991af09974c8f39d97a79316e75263bbd"
+      },
+      "reference": {
+        "path": "targets/pcb07.npz",
+        "bytes": 4125708,
+        "sha256": "3abfa20697b43b5a69a03ba2cb20d77a0ab594dacf7837b502b76b863b88ed62"
+      }
+    },
+    {
+      "index": 3,
+      "case_id": "pcb_sr4/pcb09",
+      "panel": "pcb_sr4",
+      "scene": "pcb09",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb09.npz",
+        "bytes": 649626,
+        "sha256": "2729c8a4f86cba3b275522f609dc83c3035085035008e3cef1652f0538053084"
+      },
+      "reference": {
+        "path": "targets/pcb09.npz",
+        "bytes": 4131577,
+        "sha256": "df8c9cc0e4e8b1513fe888a66a249d3b1a62ba1f4b91b72801d5966daf10dd6e"
+      }
+    },
+    {
+      "index": 4,
+      "case_id": "pcb_sr4/pcb10",
+      "panel": "pcb_sr4",
+      "scene": "pcb10",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb10.npz",
+        "bytes": 652409,
+        "sha256": "94aaecbbd3286bad1ee7c70bf14fab4238190bb7bf0f4249c7dfec385a51f5b7"
+      },
+      "reference": {
+        "path": "targets/pcb10.npz",
+        "bytes": 4159793,
+        "sha256": "cf5bfeb224e2efccf778f7df52732b02d01dc784c64a5278c27f85910015eaa6"
+      }
+    },
+    {
+      "index": 5,
+      "case_id": "pcb_sr4/pcb13",
+      "panel": "pcb_sr4",
+      "scene": "pcb13",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb13.npz",
+        "bytes": 643389,
+        "sha256": "bd3b5700183134e5753831fdc1080bf6dc81f8af3408339f8dda753ebd81b268"
+      },
+      "reference": {
+        "path": "targets/pcb13.npz",
+        "bytes": 4066291,
+        "sha256": "3c943d3149222fc79564d0b383c737e5120e3395fca4ddfcf12c2af4da4dff96"
+      }
+    },
+    {
+      "index": 6,
+      "case_id": "pcb_sr4/pcb15",
+      "panel": "pcb_sr4",
+      "scene": "pcb15",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb15.npz",
+        "bytes": 653866,
+        "sha256": "a6583484e1ac686d30ce86ce60f28eb0f8992f7a0b6aa61c503c31d9887cd20d"
+      },
+      "reference": {
+        "path": "targets/pcb15.npz",
+        "bytes": 4186586,
+        "sha256": "ad01a500b3ff69f5bb768fac01e89dbbe77c7f4c829a0e160eeceba4b06cbcad"
+      }
+    },
+    {
+      "index": 7,
+      "case_id": "pcb_sr4/pcb27",
+      "panel": "pcb_sr4",
+      "scene": "pcb27",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb27.npz",
+        "bytes": 653467,
+        "sha256": "ce29d9c3bf4fba5df17adf3c1a8ef51b5f2ad6b8cbab5046cbac5bb2de253450"
+      },
+      "reference": {
+        "path": "targets/pcb27.npz",
+        "bytes": 4172889,
+        "sha256": "2540339b65423a0188638302d4680f5e44376b42f5a1781fabe2a25b80298cdb"
+      }
+    },
+    {
+      "index": 8,
+      "case_id": "pcb_sr4/pcb39",
+      "panel": "pcb_sr4",
+      "scene": "pcb39",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb39.npz",
+        "bytes": 652015,
+        "sha256": "7b0a26ccd0c0ec1ef85538b5e027282608b9e68ffbfba400f12553e1f8e91f2d"
+      },
+      "reference": {
+        "path": "targets/pcb39.npz",
+        "bytes": 4151628,
+        "sha256": "40c8547cfe4344648afc7ff12a5599a5b8748af8931d9bcdbf0e23477e2326f9"
+      }
+    },
+    {
+      "index": 9,
+      "case_id": "pcb_sr4/pcb44",
+      "panel": "pcb_sr4",
+      "scene": "pcb44",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb44.npz",
+        "bytes": 637354,
+        "sha256": "30102c20f42b6277cdeed71ce6d82f4851f3ccc7a752deec249b27df7a669f5b"
+      },
+      "reference": {
+        "path": "targets/pcb44.npz",
+        "bytes": 4038375,
+        "sha256": "5340be77120a63dedad9b37bcc93ca0ec8b7fbc88e51994c337db18bc673d45b"
+      }
+    },
+    {
+      "index": 10,
+      "case_id": "pcb_sr4/pcb50",
+      "panel": "pcb_sr4",
+      "scene": "pcb50",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/sr4/pcb50.npz",
+        "bytes": 641272,
+        "sha256": "bdeb54c0f37ba0dcc51bb90e779092cb17dd173d653b70e42721fc3e879a9bf0"
+      },
+      "reference": {
+        "path": "targets/pcb50.npz",
+        "bytes": 4069381,
+        "sha256": "8037fbd9b749aacf062d2eaa2c03e0b67395a8167387fab58d808eb6cc5391c9"
+      }
+    },
+    {
+      "index": 11,
+      "case_id": "hytexila_sr4/stone_02",
+      "panel": "hytexila_sr4",
+      "scene": "stone_02",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/stone_02.npz",
+        "bytes": 650142,
+        "sha256": "f992b051bae3e4d72140d5dfadc7cfcc07cffb448c3afc9883f21a644653e817"
+      },
+      "reference": {
+        "path": "targets/stone_02.npz",
+        "bytes": 4138859,
+        "sha256": "fd469894af531981ab13023bb75d21fa5ca842e87e51079217884f5a6230f3c6"
+      }
+    },
+    {
+      "index": 12,
+      "case_id": "hytexila_sr4/food_coffee",
+      "panel": "hytexila_sr4",
+      "scene": "food_coffee",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/food_coffee.npz",
+        "bytes": 669552,
+        "sha256": "adeb7aef9f2ff784ab085f27890efb2c1942cf8c28232afe853ae625dfb0693f"
+      },
+      "reference": {
+        "path": "targets/food_coffee.npz",
+        "bytes": 4291068,
+        "sha256": "a68504f2635ef3fd24100a30517d8336afb11f113921bb36558dfe76b289ca84"
+      }
+    },
+    {
+      "index": 13,
+      "case_id": "hytexila_sr4/food_milkcoffee",
+      "panel": "hytexila_sr4",
+      "scene": "food_milkcoffee",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/food_milkcoffee.npz",
+        "bytes": 638888,
+        "sha256": "af4be9d07df58e7a98b53dcd3722b670b0cca81cd8f8584cf1533217294e3411"
+      },
+      "reference": {
+        "path": "targets/food_milkcoffee.npz",
+        "bytes": 4155715,
+        "sha256": "0738b732d2133e0c9cbc3e6fd813c9dbd36ce09ccf6cecfd931748716f257806"
+      }
+    },
+    {
+      "index": 14,
+      "case_id": "hytexila_sr4/wood_10",
+      "panel": "hytexila_sr4",
+      "scene": "wood_10",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_10.npz",
+        "bytes": 638909,
+        "sha256": "27601cf84b8bcf3498f2b17eed2db48f53af6a3d2bc9dddf4e6bf6eee9eb78fa"
+      },
+      "reference": {
+        "path": "targets/wood_10.npz",
+        "bytes": 4137431,
+        "sha256": "91ae79747eae4e5ba87f9489b2a185e16dcdf3537e100bb79301a97870d0904d"
+      }
+    },
+    {
+      "index": 15,
+      "case_id": "hytexila_sr4/wood_07",
+      "panel": "hytexila_sr4",
+      "scene": "wood_07",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_07.npz",
+        "bytes": 648833,
+        "sha256": "13a756f6e22373199c40c18ab0679d93e6018a64b20f0652a07d49794c226c19"
+      },
+      "reference": {
+        "path": "targets/wood_07.npz",
+        "bytes": 4094573,
+        "sha256": "3a8c4223aa9263e1a86aebf85a23fdcff327b7eac6b223ce828d50bda5555148"
+      }
+    },
+    {
+      "index": 16,
+      "case_id": "hytexila_sr4/vegetation_mushroom",
+      "panel": "hytexila_sr4",
+      "scene": "vegetation_mushroom",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_mushroom.npz",
+        "bytes": 665941,
+        "sha256": "ae9e3b2aea9a785775ad6921e4ca4b2cb9d79409257179723e4f0ec6d58ea49d"
+      },
+      "reference": {
+        "path": "targets/vegetation_mushroom.npz",
+        "bytes": 4246225,
+        "sha256": "46900220d27160434d1e9a9ea5f7f243b924e8ab6a98d7d40fe0d14561d4a113"
+      }
+    },
+    {
+      "index": 17,
+      "case_id": "hytexila_sr4/vegetation_leaf_03_amber",
+      "panel": "hytexila_sr4",
+      "scene": "vegetation_leaf_03_amber",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_03_amber.npz",
+        "bytes": 648108,
+        "sha256": "ebe31d9bc77b218ad595a92aec08bd174537d6ef7b6b7e968f9c623743a3d928"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_03_amber.npz",
+        "bytes": 4122873,
+        "sha256": "2c567282a45e225be63ca646be8c79f64152c289fd8fc7e19da1b1a419af4d96"
+      }
+    },
+    {
+      "index": 18,
+      "case_id": "hytexila_sr4/textile_16_red",
+      "panel": "hytexila_sr4",
+      "scene": "textile_16_red",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_16_red.npz",
+        "bytes": 664852,
+        "sha256": "14533d0179f727fa48829529476bbcf8434508bbeec213df7827319163c6f3f0"
+      },
+      "reference": {
+        "path": "targets/textile_16_red.npz",
+        "bytes": 4220493,
+        "sha256": "337d30ee050b3dadd29d2b4178f1d1c7ece5049b8920b7b0c6dbe81d241a0b20"
+      }
+    },
+    {
+      "index": 19,
+      "case_id": "hytexila_sr4/textile_22_red",
+      "panel": "hytexila_sr4",
+      "scene": "textile_22_red",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_22_red.npz",
+        "bytes": 657247,
+        "sha256": "7bf7ea85cf83aafe2715a97e7df811ddd84c978f1647fa48f23dab743c0cc535"
+      },
+      "reference": {
+        "path": "targets/textile_22_red.npz",
+        "bytes": 4158093,
+        "sha256": "2c228427f3776342a978eac9c4b9093de7029779951f3c5a3483083c41cd5412"
+      }
+    },
+    {
+      "index": 20,
+      "case_id": "hytexila_sr4/textile_19_blue",
+      "panel": "hytexila_sr4",
+      "scene": "textile_19_blue",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_19_blue.npz",
+        "bytes": 650502,
+        "sha256": "f49c048dadb116fa2fc905537b5c8de5a98754eae1ba4e919cc71f8bb7da7ceb"
+      },
+      "reference": {
+        "path": "targets/textile_19_blue.npz",
+        "bytes": 4125452,
+        "sha256": "5911be9c777e5664507d299d08a98cf5f6781aa9a4826165ae22ef653d4f6e5d"
+      }
+    },
+    {
+      "index": 21,
+      "case_id": "libhsi_sr4/2021-01-06_034",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-06_034",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-06_034.npz",
+        "bytes": 639383,
+        "sha256": "5995fe129d790d8e6c27c8f42992cad4f37a8b6bacec39f18edbceecb394d83b"
+      },
+      "reference": {
+        "path": "targets/2021-01-06_034.npz",
+        "bytes": 4092567,
+        "sha256": "f3c546e0b00eae1f09d8257e51c041c63ae3f81aad678291ffa846acdc50eda7"
+      }
+    },
+    {
+      "index": 22,
+      "case_id": "libhsi_sr4/2021-01-06_032",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-06_032",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-06_032.npz",
+        "bytes": 637192,
+        "sha256": "08a06237622ff0ac85482bce2e2a4103deb66c274af209232404ba1b0b2da272"
+      },
+      "reference": {
+        "path": "targets/2021-01-06_032.npz",
+        "bytes": 4085463,
+        "sha256": "866e74cb0e6238f16280796a7da36d2142d20cf7b965144e77f8b28df8cfb7df"
+      }
+    },
+    {
+      "index": 23,
+      "case_id": "libhsi_sr4/2021-01-06_015",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-06_015",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-06_015.npz",
+        "bytes": 652737,
+        "sha256": "3b08fdeb138f406de916905de41ac9a958429536ac84867328105c1101453391"
+      },
+      "reference": {
+        "path": "targets/2021-01-06_015.npz",
+        "bytes": 4146219,
+        "sha256": "f5caa82ea8f59b2e3b43c18a59b1a489541905bd5cba22b74fc2117e1e63a4ce"
+      }
+    },
+    {
+      "index": 24,
+      "case_id": "libhsi_sr4/2021-01-14_003",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-14_003",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-14_003.npz",
+        "bytes": 636181,
+        "sha256": "a2adf704cebfdbe6ba689d90e1dad4e329a50d6f84ff74b8dcf40b7c8a503a5f"
+      },
+      "reference": {
+        "path": "targets/2021-01-14_003.npz",
+        "bytes": 4054079,
+        "sha256": "5d89ad629614428446f01e541bf5d951accdabea6c436bd2a2c4b99203edb32b"
+      }
+    },
+    {
+      "index": 25,
+      "case_id": "libhsi_sr4/2021-01-14_015",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-14_015",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-14_015.npz",
+        "bytes": 647461,
+        "sha256": "af55c88f15a3303806bf922f3e0e3ee9f119dbb5c4015780a8165fb52fdcb9fa"
+      },
+      "reference": {
+        "path": "targets/2021-01-14_015.npz",
+        "bytes": 4125708,
+        "sha256": "7bf3c2916847f2d874c842306bb4110e1fbb771d4907e9d6826c2a741463b4ff"
+      }
+    },
+    {
+      "index": 26,
+      "case_id": "libhsi_sr4/2021-01-14_025",
+      "panel": "libhsi_sr4",
+      "scene": "2021-01-14_025",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2021-01-14_025.npz",
+        "bytes": 647282,
+        "sha256": "c17a1dc5a5b45a5df04ccd1d4ac81fbd144f185524eafa8ae819679f90360b20"
+      },
+      "reference": {
+        "path": "targets/2021-01-14_025.npz",
+        "bytes": 4109882,
+        "sha256": "612e013ac935a003434cbc62186a19032d5ee93100710e2757d818ff5974f591"
+      }
+    },
+    {
+      "index": 27,
+      "case_id": "libhsi_sr4/2020-11-24_039",
+      "panel": "libhsi_sr4",
+      "scene": "2020-11-24_039",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2020-11-24_039.npz",
+        "bytes": 652515,
+        "sha256": "035c5f50e363170ef1a273041c93095a40fdff4b7143a0a31b79091a03dce9dd"
+      },
+      "reference": {
+        "path": "targets/2020-11-24_039.npz",
+        "bytes": 4170462,
+        "sha256": "49ae33b36a7ea3a870817b63733e7b88a6524291812c12450bf43ec82297b6ed"
+      }
+    },
+    {
+      "index": 28,
+      "case_id": "libhsi_sr4/2020-11-24_055",
+      "panel": "libhsi_sr4",
+      "scene": "2020-11-24_055",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2020-11-24_055.npz",
+        "bytes": 623973,
+        "sha256": "3b1a17869ae5888bb68539dd69a5e863f11d18f27501710ab78a4f3876be3cde"
+      },
+      "reference": {
+        "path": "targets/2020-11-24_055.npz",
+        "bytes": 3837755,
+        "sha256": "c143bd575d5faa45da4b1a2f320b33ec22ff20f2e145b6a0632f5e6781ff1e27"
+      }
+    },
+    {
+      "index": 29,
+      "case_id": "libhsi_sr4/2020-11-24_028",
+      "panel": "libhsi_sr4",
+      "scene": "2020-11-24_028",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/2020-11-24_028.npz",
+        "bytes": 653038,
+        "sha256": "af05210da8267188944d444eaef6179a0ec2ca2336e2239624d25df37877115a"
+      },
+      "reference": {
+        "path": "targets/2020-11-24_028.npz",
+        "bytes": 4190346,
+        "sha256": "6815f1b22d7758ce634f394de5ad020ed66631a3a374fa4c701c9ef7e704518d"
+      }
+    },
+    {
+      "index": 30,
+      "case_id": "pcb_denoise/pcb02",
+      "panel": "pcb_denoise",
+      "scene": "pcb02",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb02.npz",
+        "bytes": 4688326,
+        "sha256": "acbe78e1d652ab9dc2dfea93cd62680e1d0d82eec0713e9ae048fd3b94f88d0e"
+      },
+      "reference": {
+        "path": "targets/pcb02.npz",
+        "bytes": 4210840,
+        "sha256": "59fec7c5a97808a30d65572ffba3397f23fd436ead17d77e4032a9e40967d317"
+      }
+    },
+    {
+      "index": 31,
+      "case_id": "pcb_denoise/pcb04",
+      "panel": "pcb_denoise",
+      "scene": "pcb04",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb04.npz",
+        "bytes": 4662730,
+        "sha256": "edd472fb8f3865f250bbbd796db2b733764bb6a5ddf17adc74b96151af99b958"
+      },
+      "reference": {
+        "path": "targets/pcb04.npz",
+        "bytes": 4059000,
+        "sha256": "ba81b735bf790491813deab28b2f0024513ddbb5d3344b0dcffc4917ab613b57"
+      }
+    },
+    {
+      "index": 32,
+      "case_id": "pcb_denoise/pcb07",
+      "panel": "pcb_denoise",
+      "scene": "pcb07",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb07.npz",
+        "bytes": 4659864,
+        "sha256": "b1f50fb90302a3e22a9863a7b915adce518b1255083c23a0c05a9bd4e8ba85ac"
+      },
+      "reference": {
+        "path": "targets/pcb07.npz",
+        "bytes": 4125708,
+        "sha256": "3abfa20697b43b5a69a03ba2cb20d77a0ab594dacf7837b502b76b863b88ed62"
+      }
+    },
+    {
+      "index": 33,
+      "case_id": "pcb_denoise/pcb09",
+      "panel": "pcb_denoise",
+      "scene": "pcb09",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb09.npz",
+        "bytes": 4654915,
+        "sha256": "e842aa968d1e1de8a97064d247c93f13d30d21e2ae8501d6272e014b12ba170c"
+      },
+      "reference": {
+        "path": "targets/pcb09.npz",
+        "bytes": 4131577,
+        "sha256": "df8c9cc0e4e8b1513fe888a66a249d3b1a62ba1f4b91b72801d5966daf10dd6e"
+      }
+    },
+    {
+      "index": 34,
+      "case_id": "pcb_denoise/pcb10",
+      "panel": "pcb_denoise",
+      "scene": "pcb10",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb10.npz",
+        "bytes": 4654796,
+        "sha256": "891ca49987b8fe698f684a9d9e4cb3ca23a58c0c1af89c2d0d1c34bfd98aacd1"
+      },
+      "reference": {
+        "path": "targets/pcb10.npz",
+        "bytes": 4159793,
+        "sha256": "cf5bfeb224e2efccf778f7df52732b02d01dc784c64a5278c27f85910015eaa6"
+      }
+    },
+    {
+      "index": 35,
+      "case_id": "pcb_denoise/pcb13",
+      "panel": "pcb_denoise",
+      "scene": "pcb13",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb13.npz",
+        "bytes": 4659028,
+        "sha256": "e9c213cd69d9053152203e7942c448fa566c9e9b646858f99c9354e27dcf659b"
+      },
+      "reference": {
+        "path": "targets/pcb13.npz",
+        "bytes": 4066291,
+        "sha256": "3c943d3149222fc79564d0b383c737e5120e3395fca4ddfcf12c2af4da4dff96"
+      }
+    },
+    {
+      "index": 36,
+      "case_id": "pcb_denoise/pcb15",
+      "panel": "pcb_denoise",
+      "scene": "pcb15",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb15.npz",
+        "bytes": 4679313,
+        "sha256": "c7c08900dd61fcbe0659040efd776fb6ff829b288af591d01a6ff0b4566f5307"
+      },
+      "reference": {
+        "path": "targets/pcb15.npz",
+        "bytes": 4186586,
+        "sha256": "ad01a500b3ff69f5bb768fac01e89dbbe77c7f4c829a0e160eeceba4b06cbcad"
+      }
+    },
+    {
+      "index": 37,
+      "case_id": "pcb_denoise/pcb27",
+      "panel": "pcb_denoise",
+      "scene": "pcb27",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb27.npz",
+        "bytes": 4677129,
+        "sha256": "787ff00664b6305143f8e820469a041a389b8a50e2caedba8d34438687499106"
+      },
+      "reference": {
+        "path": "targets/pcb27.npz",
+        "bytes": 4172889,
+        "sha256": "2540339b65423a0188638302d4680f5e44376b42f5a1781fabe2a25b80298cdb"
+      }
+    },
+    {
+      "index": 38,
+      "case_id": "pcb_denoise/pcb39",
+      "panel": "pcb_denoise",
+      "scene": "pcb39",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb39.npz",
+        "bytes": 4660115,
+        "sha256": "d4fe7a28bca6f213c8e19ad4758184d0976b5bff0ba9b294a180c9ea6c52eac0"
+      },
+      "reference": {
+        "path": "targets/pcb39.npz",
+        "bytes": 4151628,
+        "sha256": "40c8547cfe4344648afc7ff12a5599a5b8748af8931d9bcdbf0e23477e2326f9"
+      }
+    },
+    {
+      "index": 39,
+      "case_id": "pcb_denoise/pcb44",
+      "panel": "pcb_denoise",
+      "scene": "pcb44",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb44.npz",
+        "bytes": 4647177,
+        "sha256": "db5cc48e047e67ec174852cd7382ab84a21dfda3c4bfb3032f22191565b143a3"
+      },
+      "reference": {
+        "path": "targets/pcb44.npz",
+        "bytes": 4038375,
+        "sha256": "5340be77120a63dedad9b37bcc93ca0ec8b7fbc88e51994c337db18bc673d45b"
+      }
+    },
+    {
+      "index": 40,
+      "case_id": "pcb_denoise/pcb50",
+      "panel": "pcb_denoise",
+      "scene": "pcb50",
+      "scale": 1,
+      "sigma": 0.04,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/denoise/pcb50.npz",
+        "bytes": 4668700,
+        "sha256": "7a10c157b1a5b116926ea25b3be23138a10702c53e581535fa99e342e0e26912"
+      },
+      "reference": {
+        "path": "targets/pcb50.npz",
+        "bytes": 4069381,
+        "sha256": "8037fbd9b749aacf062d2eaa2c03e0b67395a8167387fab58d808eb6cc5391c9"
+      }
+    },
+    {
+      "index": 41,
+      "case_id": "chikusei_sr4/ch13",
+      "panel": "chikusei_sr4",
+      "scene": "ch13",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch13.npz",
+        "bytes": 657288,
+        "sha256": "4312917a7aeff20c13dc52109cbc04e13d781023200dda6a92d0a6438f105354"
+      },
+      "reference": {
+        "path": "targets/ch13.npz",
+        "bytes": 4136491,
+        "sha256": "1d9d0b31c5bd2ddbcb0e5a5e57879664c438a47ac15e9ce4285783f006d1952b"
+      }
+    },
+    {
+      "index": 42,
+      "case_id": "chikusei_sr4/ch14",
+      "panel": "chikusei_sr4",
+      "scene": "ch14",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch14.npz",
+        "bytes": 658165,
+        "sha256": "ea2c0ff63f7b9a9accad5902a738881ed314a420005a9a20888852a330f0afa4"
+      },
+      "reference": {
+        "path": "targets/ch14.npz",
+        "bytes": 4137963,
+        "sha256": "618aeb75d5dc0442eab5b5a1536e7f83349c44fb8a9f613251fc5ef3b55afcf5"
+      }
+    },
+    {
+      "index": 43,
+      "case_id": "chikusei_sr4/ch15",
+      "panel": "chikusei_sr4",
+      "scene": "ch15",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch15.npz",
+        "bytes": 659038,
+        "sha256": "6d51f57a80efb92a4193287ffe6ab06cafe325d52279f030499756b4213a263e"
+      },
+      "reference": {
+        "path": "targets/ch15.npz",
+        "bytes": 4207354,
+        "sha256": "4bf575dc7f2fde90979d92c4a4d9b2b7304515ca3013e95ec7449070061eb96e"
+      }
+    },
+    {
+      "index": 44,
+      "case_id": "chikusei_sr4/ch16",
+      "panel": "chikusei_sr4",
+      "scene": "ch16",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch16.npz",
+        "bytes": 658794,
+        "sha256": "0de974dd0948ba2579ea2326fbc9eca2b15fd1a25efbf1ce2517e3f9abfd24ed"
+      },
+      "reference": {
+        "path": "targets/ch16.npz",
+        "bytes": 4125122,
+        "sha256": "825b87047e354a35675549b6141951be325808bd1590f90636b9d942c9e94117"
+      }
+    },
+    {
+      "index": 45,
+      "case_id": "chikusei_sr4/ch17",
+      "panel": "chikusei_sr4",
+      "scene": "ch17",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch17.npz",
+        "bytes": 656740,
+        "sha256": "f2b129a69ee70123afa93472900c7cef9a31ceaedd950dc46a4e6dd66c883855"
+      },
+      "reference": {
+        "path": "targets/ch17.npz",
+        "bytes": 4067749,
+        "sha256": "5687bb913a9a5b5253ee32d2ed0202313861dc90314ce7ada64217bf2e1b7d33"
+      }
+    },
+    {
+      "index": 46,
+      "case_id": "chikusei_sr4/ch18",
+      "panel": "chikusei_sr4",
+      "scene": "ch18",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/ch18.npz",
+        "bytes": 659412,
+        "sha256": "ea40bd48fd66b18d3293a7c5832a3fbb6be2b05a36563139adcf6fcfac1ac957"
+      },
+      "reference": {
+        "path": "targets/ch18.npz",
+        "bytes": 4200876,
+        "sha256": "eb310314d784c7bf7e42fad47b57ab2d47e20c8cb8da86965fbbb8243ef253f0"
+      }
+    },
+    {
+      "index": 47,
+      "case_id": "harvard_sr4/imgh0",
+      "panel": "harvard_sr4",
+      "scene": "imgh0",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/imgh0.npz",
+        "bytes": 659257,
+        "sha256": "2d8002cebaa9a11bd05b556c1f7d09fc53343c0dbdc79f789c8f86c250b0d582"
+      },
+      "reference": {
+        "path": "targets/imgh0.npz",
+        "bytes": 4219192,
+        "sha256": "066a08eb2941a4fc4a7b759dae24eec34a428ae9117c0043ea3187598d2f7a94"
+      }
+    },
+    {
+      "index": 48,
+      "case_id": "harvard_sr4/imgh1",
+      "panel": "harvard_sr4",
+      "scene": "imgh1",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/imgh1.npz",
+        "bytes": 666326,
+        "sha256": "160b7a9a166b3f5558327c0d72198a0c7fe6b28aad40911498fa531bfb9d6938"
+      },
+      "reference": {
+        "path": "targets/imgh1.npz",
+        "bytes": 4243202,
+        "sha256": "e7c8207357b01396355f6c8cd533ad04184e3586cecbcae0d352db1fc9d3117d"
+      }
+    },
+    {
+      "index": 49,
+      "case_id": "harvard_sr4/imgh2",
+      "panel": "harvard_sr4",
+      "scene": "imgh2",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/imgh2.npz",
+        "bytes": 666754,
+        "sha256": "415cc0bf8dc4c08e3a35d3f5e465f01f4910a7b3ba844cdf1d2465b837a7babc"
+      },
+      "reference": {
+        "path": "targets/imgh2.npz",
+        "bytes": 4249537,
+        "sha256": "6380d5aa2a0482a9eb7f5210e71f20c4dc6d2c06932c0f3a652cc94e38e06d1b"
+      }
+    },
+    {
+      "index": 50,
+      "case_id": "harvard_sr4/imgh3",
+      "panel": "harvard_sr4",
+      "scene": "imgh3",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/imgh3.npz",
+        "bytes": 661901,
+        "sha256": "8b18f1858817f842dc963c21fcf58b0aed203caa0d3b28c3085fde3b03471edd"
+      },
+      "reference": {
+        "path": "targets/imgh3.npz",
+        "bytes": 4234155,
+        "sha256": "e851f970f65eaca74d7dacc1bec0c01d77cc02f9a0b741dd451f1fcc241a22df"
+      }
+    },
+    {
+      "index": 51,
+      "case_id": "harvard_sr4/imgc1",
+      "panel": "harvard_sr4",
+      "scene": "imgc1",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 27681,
+      "input": {
+        "path": "inputs/imgc1.npz",
+        "bytes": 662501,
+        "sha256": "59528d04cc9637c70ea1d28e981f2f70724ac541e999494dcc7d69e1a92237a4"
+      },
+      "reference": {
+        "path": "targets/imgc1.npz",
+        "bytes": 4237728,
+        "sha256": "ba0c4bce3b44a6f3616aa0a4e9e8f5b82ca2681894e25f334031d349535754a1"
+      }
+    },
+    {
+      "index": 52,
+      "case_id": "harvard_sr4/imgc2",
+      "panel": "harvard_sr4",
+      "scene": "imgc2",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36675,
+      "input": {
+        "path": "inputs/imgc2.npz",
+        "bytes": 659517,
+        "sha256": "1948913f4363333f1fd09597ac13d895349b26739eac4a59c9817721d30bb3ae"
+      },
+      "reference": {
+        "path": "targets/imgc2.npz",
+        "bytes": 4246613,
+        "sha256": "f105d0795f7a379dccdbc446cbdabd23bc9ad7f3a0a8c795f98985527e18d7d0"
+      }
+    },
+    {
+      "index": 53,
+      "case_id": "harvard_sr4/imgc4",
+      "panel": "harvard_sr4",
+      "scene": "imgc4",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 21676,
+      "input": {
+        "path": "inputs/imgc4.npz",
+        "bytes": 662809,
+        "sha256": "553ab5fbcea86766bd048dafb800d0b87ed62862de8625b2b88e8b91e31f9ea3"
+      },
+      "reference": {
+        "path": "targets/imgc4.npz",
+        "bytes": 4238876,
+        "sha256": "7cefb5d0a1e5a7db15ced286d80cf76dcd41651943e1ab045658bfef845521a3"
+      }
+    },
+    {
+      "index": 54,
+      "case_id": "harvard_sr4/imgc5",
+      "panel": "harvard_sr4",
+      "scene": "imgc5",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 34304,
+      "input": {
+        "path": "inputs/imgc5.npz",
+        "bytes": 659624,
+        "sha256": "7d259ca3123870c1be92d7abb4b6cdd595f7b6bcd0db300577b2b374b34d00f7"
+      },
+      "reference": {
+        "path": "targets/imgc5.npz",
+        "bytes": 4226826,
+        "sha256": "58c6ec8be095e4e8eaad0a370e46efb6e3cdcd64db0b6bfc0c2999e7149260f0"
+      }
+    },
+    {
+      "index": 55,
+      "case_id": "harvard_sr4/imgc7",
+      "panel": "harvard_sr4",
+      "scene": "imgc7",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36525,
+      "input": {
+        "path": "inputs/imgc7.npz",
+        "bytes": 660397,
+        "sha256": "da5c389043bdf4063610807f62886cc001e61245e3a25065197216cab5db0c1b"
+      },
+      "reference": {
+        "path": "targets/imgc7.npz",
+        "bytes": 4220392,
+        "sha256": "eee2dc49ed2025316149cb7bfa99b5f986392f7dac313ba44547bbdc408ce6f7"
+      }
+    },
+    {
+      "index": 56,
+      "case_id": "harvard_sr4/imgc8",
+      "panel": "harvard_sr4",
+      "scene": "imgc8",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 32314,
+      "input": {
+        "path": "inputs/imgc8.npz",
+        "bytes": 663760,
+        "sha256": "9da8fe4ab954724cb1ecd942c602a56ce50d651dbc01eff243854482ac90fa8d"
+      },
+      "reference": {
+        "path": "targets/imgc8.npz",
+        "bytes": 4237741,
+        "sha256": "051cb02a5ceb65b5f8ad7ec1f032ac7c557d1bf0b96525c635fb7dd7fbe43b65"
+      }
+    },
+    {
+      "index": 57,
+      "case_id": "harvard_sr4/imgc9",
+      "panel": "harvard_sr4",
+      "scene": "imgc9",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 2841,
+      "input": {
+        "path": "inputs/imgc9.npz",
+        "bytes": 654045,
+        "sha256": "9fe33a43cd74f417e66558ebb39d2cfa3e157f0b98b5c0bac7c46dacf8b35610"
+      },
+      "reference": {
+        "path": "targets/imgc9.npz",
+        "bytes": 4193594,
+        "sha256": "a75b6029637f4bdd4e302c1a0d3a0244448056aa3027c703104094a2c22abcd7"
+      }
+    },
+    {
+      "index": 58,
+      "case_id": "hytexila_fresh_sr4/food_chili",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "food_chili",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/food_chili.npz",
+        "bytes": 662149,
+        "sha256": "6a55acb63e9888c06241c81c39df20e68f74fae5c0cc255119a7a9985e19515c"
+      },
+      "reference": {
+        "path": "targets/food_chili.npz",
+        "bytes": 4214581,
+        "sha256": "927d75198839d830f47aa276a2c1b2d16718ff7fdde50855bb3a04c917ea743b"
+      }
+    },
+    {
+      "index": 59,
+      "case_id": "hytexila_fresh_sr4/wood_06",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "wood_06",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_06.npz",
+        "bytes": 642953,
+        "sha256": "7a95ab4a7878f6ae5bdde22e2c8be502419c6b7c51d3a5408105d055d8c72241"
+      },
+      "reference": {
+        "path": "targets/wood_06.npz",
+        "bytes": 4140327,
+        "sha256": "3e5c173388ce0be0f0076b34cdf59f11c351357ff07b0ec141ea11fba0901cea"
+      }
+    },
+    {
+      "index": 60,
+      "case_id": "hytexila_fresh_sr4/wood_08",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "wood_08",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_08.npz",
+        "bytes": 648695,
+        "sha256": "7ab57ae0c5f0e3efc6cc8e988fddf055c69913d70563bd8a29a6f13a8eb0b6d0"
+      },
+      "reference": {
+        "path": "targets/wood_08.npz",
+        "bytes": 4081875,
+        "sha256": "3271774532b21666adeb29da968fe53eff01ad73c75f14accc8f41238cd621c5"
+      }
+    },
+    {
+      "index": 61,
+      "case_id": "hytexila_fresh_sr4/wood_02",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "wood_02",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_02.npz",
+        "bytes": 646127,
+        "sha256": "4f3c7d1cb1b7cbc5e763eeb923116562ef742ed4f86ad1c32e76d31173c31722"
+      },
+      "reference": {
+        "path": "targets/wood_02.npz",
+        "bytes": 4153223,
+        "sha256": "4227e94d011b2a3b6e272511132cb6483493451554715f7c79ce66d453a49c40"
+      }
+    },
+    {
+      "index": 62,
+      "case_id": "hytexila_fresh_sr4/wood_01",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "wood_01",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_01.npz",
+        "bytes": 608124,
+        "sha256": "82e0ef9241f24a8a3c1f3f532436ce5cd5ad373fe708597661f3c95faff67e29"
+      },
+      "reference": {
+        "path": "targets/wood_01.npz",
+        "bytes": 1186499,
+        "sha256": "5fa35311e6d376fb7f3af23577228cf1ce4e18b13e8e6ef163a279d99730512f"
+      }
+    },
+    {
+      "index": 63,
+      "case_id": "hytexila_fresh_sr4/vegetation_leaf_05",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "vegetation_leaf_05",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_05.npz",
+        "bytes": 649178,
+        "sha256": "fd359e797a4c6c6d55070bbb45b068790dfe9f010c9b4b4c74f6b53441704513"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_05.npz",
+        "bytes": 4215600,
+        "sha256": "53b0e99a5b1b568cdc2c9f44444629978c67dae62867c6ac574d2a58eb953e1b"
+      }
+    },
+    {
+      "index": 64,
+      "case_id": "hytexila_fresh_sr4/vegetation_flowers_01",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "vegetation_flowers_01",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_flowers_01.npz",
+        "bytes": 670177,
+        "sha256": "75c16ced2c3544aa947cc40fafa64fd53e17ce5ae42efa20c4f5b9920a0f7e03"
+      },
+      "reference": {
+        "path": "targets/vegetation_flowers_01.npz",
+        "bytes": 4252236,
+        "sha256": "4e00a168e79afd9ef900d1db599171feab5d301693e917866ee6fe75ef3f1337"
+      }
+    },
+    {
+      "index": 65,
+      "case_id": "hytexila_fresh_sr4/vegetation_leaf_02",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "vegetation_leaf_02",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_02.npz",
+        "bytes": 651832,
+        "sha256": "a29a34abf39e058588571dbaac3d915c92351637963f23dc0de00fe3eeb7cc55"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_02.npz",
+        "bytes": 4180395,
+        "sha256": "5282f84e3809ce7e7ebbdfc753cbfd8c6faaab059950560cb5125dd81cc081aa"
+      }
+    },
+    {
+      "index": 66,
+      "case_id": "hytexila_fresh_sr4/vegetation_leaf_01",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "vegetation_leaf_01",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_01.npz",
+        "bytes": 656569,
+        "sha256": "e8dce261ec407bdbd51b85f6b9c69dc9b51e4f68e9cae337a793c63118a51bc8"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_01.npz",
+        "bytes": 4202553,
+        "sha256": "6eacd954bbb835b58d1b7e42841b87c86a1512d6df45f3bc0c3ca56f9f6d8f80"
+      }
+    },
+    {
+      "index": 67,
+      "case_id": "hytexila_fresh_sr4/textile_05",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "textile_05",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_05.npz",
+        "bytes": 652225,
+        "sha256": "22dad8e505be64695e89adfc25c454fca80896b83318b111eca090866b0192f9"
+      },
+      "reference": {
+        "path": "targets/textile_05.npz",
+        "bytes": 4216522,
+        "sha256": "4f266e8e47a2f4ed9efd9e8bc547be11ce0d999e137bc2b563fea78f62234660"
+      }
+    },
+    {
+      "index": 68,
+      "case_id": "hytexila_fresh_sr4/textile_12",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "textile_12",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_12.npz",
+        "bytes": 653538,
+        "sha256": "0b1f4fa08e9882256ffbcdd006d46b25c48e9517622bfc18ef036688b9123e3c"
+      },
+      "reference": {
+        "path": "targets/textile_12.npz",
+        "bytes": 4132784,
+        "sha256": "3d79173c9b4d01efd6e59d4abb3b0a213261d9d1bd107121fb874b8d857d01b1"
+      }
+    },
+    {
+      "index": 69,
+      "case_id": "hytexila_fresh_sr4/textile_18_red",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "textile_18_red",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_18_red.npz",
+        "bytes": 665258,
+        "sha256": "d28de9d74f1f01dcf9159b676d9afc3c9d5d991ef08899cb1ac00e4228529ad3"
+      },
+      "reference": {
+        "path": "targets/textile_18_red.npz",
+        "bytes": 4286213,
+        "sha256": "eaa217fb3e36d3f58469b373937ef77d7784ff167db17e35cb5f2e02886a26c9"
+      }
+    },
+    {
+      "index": 70,
+      "case_id": "hytexila_fresh_sr4/textile_08",
+      "panel": "hytexila_fresh_sr4",
+      "scene": "textile_08",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_08.npz",
+        "bytes": 658943,
+        "sha256": "2d24481903b27e53b707264a8df1e1244f318888099731cadf828e20a6f0d88d"
+      },
+      "reference": {
+        "path": "targets/textile_08.npz",
+        "bytes": 4247293,
+        "sha256": "04bcc881898b787014b886a49acbe58906a686d837bef1fa79763930c05ff160"
+      }
+    },
+    {
+      "index": 71,
+      "case_id": "hytexila_round3_sr4/textile_04",
+      "panel": "hytexila_round3_sr4",
+      "scene": "textile_04",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_04.npz",
+        "bytes": 661456,
+        "sha256": "8aeaca5a5f76dd823a3aef69cf45ff6786040570476c370266b09da94cc4564f"
+      },
+      "reference": {
+        "path": "targets/textile_04.npz",
+        "bytes": 4150303,
+        "sha256": "d74666972180b3bfdc2a2ed748b7e24d8e32d5988c53e0a4ced865aaeec2001d"
+      }
+    },
+    {
+      "index": 72,
+      "case_id": "hytexila_round3_sr4/textile_10",
+      "panel": "hytexila_round3_sr4",
+      "scene": "textile_10",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_10.npz",
+        "bytes": 654832,
+        "sha256": "89fe46d8a706839e132e4d077d262a13cdc4a5d8abc96dd07a8b7b4e5f469d87"
+      },
+      "reference": {
+        "path": "targets/textile_10.npz",
+        "bytes": 4238514,
+        "sha256": "19b92bfb6144d2a81fc8ccc899bc709b8d0de7eb387602ad165aed58a538bbd3"
+      }
+    },
+    {
+      "index": 73,
+      "case_id": "hytexila_round3_sr4/textile_21_red",
+      "panel": "hytexila_round3_sr4",
+      "scene": "textile_21_red",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_21_red.npz",
+        "bytes": 658979,
+        "sha256": "a50709c7cf0db7bbefea22fce4cf09e064b49d7327763828032383559d616ecd"
+      },
+      "reference": {
+        "path": "targets/textile_21_red.npz",
+        "bytes": 4175123,
+        "sha256": "907d97e26144b0067c585fb083df86a563ebf377221a7d3ef7734228bc569560"
+      }
+    },
+    {
+      "index": 74,
+      "case_id": "hytexila_round3_sr4/textile_07",
+      "panel": "hytexila_round3_sr4",
+      "scene": "textile_07",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_07.npz",
+        "bytes": 655436,
+        "sha256": "50cc78cec1e3616adb22c54c8f2861b23e7ba138dc3e80dad3cb43c72c859f33"
+      },
+      "reference": {
+        "path": "targets/textile_07.npz",
+        "bytes": 4218973,
+        "sha256": "87d041e2ef34623efb32961ecba88c09ae09ad8373b5b41040a62a359dc3dbc2"
+      }
+    },
+    {
+      "index": 75,
+      "case_id": "hytexila_round3_sr4/textile_06",
+      "panel": "hytexila_round3_sr4",
+      "scene": "textile_06",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/textile_06.npz",
+        "bytes": 656454,
+        "sha256": "a2ae2504211e05903b294e932dbd1d88e243d04d3d72ab83dc742e8510e55296"
+      },
+      "reference": {
+        "path": "targets/textile_06.npz",
+        "bytes": 4225608,
+        "sha256": "f63d8fc0c5eda58dc9b3f6e29bc1a23f90d6447040be3cc5367aa28b99659655"
+      }
+    },
+    {
+      "index": 76,
+      "case_id": "hytexila_round3_sr4/vegetation_leaf_07",
+      "panel": "hytexila_round3_sr4",
+      "scene": "vegetation_leaf_07",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_07.npz",
+        "bytes": 647812,
+        "sha256": "aa5468c8b7e2b1426f06a64dc90c688239f7cbc3d9e4f8689605bf34aa7214d7"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_07.npz",
+        "bytes": 4221877,
+        "sha256": "5608a123da8a68f63d546f052672e19985639b6f086ecb0582d6564014270caf"
+      }
+    },
+    {
+      "index": 77,
+      "case_id": "hytexila_round3_sr4/vegetation_leaf_08",
+      "panel": "hytexila_round3_sr4",
+      "scene": "vegetation_leaf_08",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/vegetation_leaf_08.npz",
+        "bytes": 653904,
+        "sha256": "843b83a20f03c43a6f1d0fc34b55a6f6a2d622f58db78b3840b2829adb5e3da0"
+      },
+      "reference": {
+        "path": "targets/vegetation_leaf_08.npz",
+        "bytes": 4188917,
+        "sha256": "bf0ad8698ca3a5a22fbd3b9ce5228dba64e404c62ae36f2cf60a69f13b8a6b07"
+      }
+    },
+    {
+      "index": 78,
+      "case_id": "hytexila_round3_sr4/wood_04",
+      "panel": "hytexila_round3_sr4",
+      "scene": "wood_04",
+      "scale": 4,
+      "sigma": 0.01,
+      "valid_pixels": 36864,
+      "input": {
+        "path": "inputs/wood_04.npz",
+        "bytes": 648729,
+        "sha256": "c277263fcab28c05463b1d4dc32b74c62b61b4a8e80faab91c47da9c5b2a79e1"
+      },
+      "reference": {
+        "path": "targets/wood_04.npz",
+        "bytes": 4191231,
+        "sha256": "bbda6158d827c76d79b8a9343862e49f93a5426c3c1e01b58ed4c125480f9d34"
+      }
+    }
+  ]
+}

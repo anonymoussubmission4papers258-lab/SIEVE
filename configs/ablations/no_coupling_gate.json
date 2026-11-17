@@ -1,0 +1,6 @@
+{
+  "_comment": "beta = 1 everywhere (the VFM cannot decide where coupling applies).",
+  "model": {
+    "coupling_gate": false
+  }
+}

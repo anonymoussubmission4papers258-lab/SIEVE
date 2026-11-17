@@ -1,0 +1,368 @@
+[
+  {
+    "release": "sieve3/__init__.py",
+    "original_sha256": "7b9462328ff890ec1ee9cfb1eb0f7932dc543ef9753a9972f8f06e372caa5709",
+    "release_sha256": "7b9462328ff890ec1ee9cfb1eb0f7932dc543ef9753a9972f8f06e372caa5709",
+    "changed": false
+  },
+  {
+    "release": "sieve3/audit.py",
+    "original_sha256": "a5142577707940038fb62f6c4dad14aff8238b42d3d5a637ccebdec5b4ca47eb",
+    "release_sha256": "a5142577707940038fb62f6c4dad14aff8238b42d3d5a637ccebdec5b4ca47eb",
+    "changed": false
+  },
+  {
+    "release": "sieve3/baselines.py",
+    "original_sha256": "717361ca6d36b41c95180900eb42e5377822dafaa1e109b3320a2e2621bc4267",
+    "release_sha256": "717361ca6d36b41c95180900eb42e5377822dafaa1e109b3320a2e2621bc4267",
+    "changed": false
+  },
+  {
+    "release": "sieve3/checkpoint.py",
+    "original_sha256": "5d438f2cdce34dd21eb55cf42b9dea034d9ae26fff0e4d514dc13d99b90e5570",
+    "release_sha256": "5d438f2cdce34dd21eb55cf42b9dea034d9ae26fff0e4d514dc13d99b90e5570",
+    "changed": false
+  },
+  {
+    "release": "sieve3/checkpoint_v2.py",
+    "original_sha256": "cd644a88a0ebc876fc4a75a6e4e50adb7047ca1a68e030e2edfffa7d026eb26d",
+    "release_sha256": "cd644a88a0ebc876fc4a75a6e4e50adb7047ca1a68e030e2edfffa7d026eb26d",
+    "changed": false
+  },
+  {
+    "release": "sieve3/config.py",
+    "original_sha256": "5427af3e062fd0614752bd5ca825744dd8ee6786dad47eb5e63a20fa214a1da0",
+    "release_sha256": "5427af3e062fd0614752bd5ca825744dd8ee6786dad47eb5e63a20fa214a1da0",
+    "changed": false
+  },
+  {
+    "release": "sieve3/coupled.py",
+    "original_sha256": "159807446010a0d91cf9cb2c9a9dcaed23b56a1281a56bd261984e01853a0556",
+    "release_sha256": "159807446010a0d91cf9cb2c9a9dcaed23b56a1281a56bd261984e01853a0556",
+    "changed": false
+  },
+  {
+    "release": "sieve3/data.py",
+    "original_sha256": "92d25f93174f45118afbc1d20bc3275bc98d31f7144c622947cd8121ed6b8637",
+    "release_sha256": "b1088f4bd1cc94fc3e1170eed03d6873d7c8088567431e025f787e148cbc9e17",
+    "changed": true
+  },
+  {
+    "release": "sieve3/data_memmap_v1.py",
+    "original_sha256": "3b5204edca99d79dfc5b04b749b4a46f454d9a26d2b21dbe6ab68b3ccfc5d0e9",
+    "release_sha256": "3b5204edca99d79dfc5b04b749b4a46f454d9a26d2b21dbe6ab68b3ccfc5d0e9",
+    "changed": false
+  },
+  {
+    "release": "sieve3/evidence.py",
+    "original_sha256": "b96f787194c3654c5d944dd43425d7235ba0a9c330bd4045cc357501d33b8a43",
+    "release_sha256": "b96f787194c3654c5d944dd43425d7235ba0a9c330bd4045cc357501d33b8a43",
+    "changed": false
+  },
+  {
+    "release": "sieve3/lora.py",
+    "original_sha256": "8f375e6b0ecc74eab11415aab935ed5ff5d015a686e4443b600ffae1ae931880",
+    "release_sha256": "8f375e6b0ecc74eab11415aab935ed5ff5d015a686e4443b600ffae1ae931880",
+    "changed": false
+  },
+  {
+    "release": "sieve3/losses.py",
+    "original_sha256": "14e556919f413c56412b721425dea3cec72f0561a3177a227e2cfa348c36bade",
+    "release_sha256": "14e556919f413c56412b721425dea3cec72f0561a3177a227e2cfa348c36bade",
+    "changed": false
+  },
+  {
+    "release": "sieve3/metrics.py",
+    "original_sha256": "5d3add5b0417603665449c57b404c05d0aaebecc811f0a42965e346627efc423",
+    "release_sha256": "5d3add5b0417603665449c57b404c05d0aaebecc811f0a42965e346627efc423",
+    "changed": false
+  },
+  {
+    "release": "sieve3/model.py",
+    "original_sha256": "a51105be800635f770bfaa3acc572690030ab95bf31155613ffd088901cbcdf8",
+    "release_sha256": "a51105be800635f770bfaa3acc572690030ab95bf31155613ffd088901cbcdf8",
+    "changed": false
+  },
+  {
+    "release": "sieve3/ops.py",
+    "original_sha256": "7760037ac417cfab1a890289adca27f369875197e8e41c9299e9834c12bc048b",
+    "release_sha256": "7760037ac417cfab1a890289adca27f369875197e8e41c9299e9834c12bc048b",
+    "changed": false
+  },
+  {
+    "release": "sieve3/pipeline.py",
+    "original_sha256": "a4d4b5eadab10730c074b27e638c6a5d7bffc7063ca83a314aa62d80439aee8f",
+    "release_sha256": "a4d4b5eadab10730c074b27e638c6a5d7bffc7063ca83a314aa62d80439aee8f",
+    "changed": false
+  },
+  {
+    "release": "sieve3/routing.py",
+    "original_sha256": "c19629f5c930865bdf8e006a66aa920d1d7672ac109d2cd4ff311a6ee42ce37b",
+    "release_sha256": "c19629f5c930865bdf8e006a66aa920d1d7672ac109d2cd4ff311a6ee42ce37b",
+    "changed": false
+  },
+  {
+    "release": "sieve3/spectral.py",
+    "original_sha256": "2fd60317698a529a2424ea6966fbe4bee5353942c05e1319c947df25124dbe5f",
+    "release_sha256": "2fd60317698a529a2424ea6966fbe4bee5353942c05e1319c947df25124dbe5f",
+    "changed": false
+  },
+  {
+    "release": "sieve3/teacher.py",
+    "original_sha256": "075f54bd8d5ca4ba2d946f7b8ce10c6adf708b11093405d3a52b9fbde219015c",
+    "release_sha256": "075f54bd8d5ca4ba2d946f7b8ce10c6adf708b11093405d3a52b9fbde219015c",
+    "changed": false
+  },
+  {
+    "release": "sieve3/trainer.py",
+    "original_sha256": "ed3e291c4dc504d700eae0bb9920ddd70946ec77e1e7a49942cca27a4898325a",
+    "release_sha256": "ed3e291c4dc504d700eae0bb9920ddd70946ec77e1e7a49942cca27a4898325a",
+    "changed": false
+  },
+  {
+    "release": "sieve3/trainer_v2.py",
+    "original_sha256": "52d458092bc34c967ea5e6b55a863a3d7c5deaeaa1c3698a5f46a313a1469552",
+    "release_sha256": "52d458092bc34c967ea5e6b55a863a3d7c5deaeaa1c3698a5f46a313a1469552",
+    "changed": false
+  },
+  {
+    "release": "scripts/train_v3.py",
+    "original_sha256": "4276c93e0868064c5970f7bf225fc9ff9cee8fa36d1459159278438248543504",
+    "release_sha256": "7f60edc3c56b1a09867a5edc418a01eb6734303fc1489ad49c7557c618762009",
+    "changed": true
+  },
+  {
+    "release": "scripts/distill_edge_v3.py",
+    "original_sha256": "dd10fac580aa1a7c8b36d44730ed962343cd4ecc9c394989cad1511426900f0d",
+    "release_sha256": "85d9cfd01cb8f3e330c77fc5e78635a0bec80b31f2f5655ec8975f6527ae6b0f",
+    "changed": true
+  },
+  {
+    "release": "scripts/cache_teacher_stream_v3_reuse.py",
+    "original_sha256": "bed1c8e335f9b618ca38d8d766ace61efc29356d6c54240297da0b414e8cdfff",
+    "release_sha256": "bed1c8e335f9b618ca38d8d766ace61efc29356d6c54240297da0b414e8cdfff",
+    "changed": false
+  },
+  {
+    "release": "scripts/cache_teacher.py",
+    "original_sha256": "c553924fdd7a32cb12d45c0dab2ba1da85007170fa8b5f03c8187eba5fa54c1a",
+    "release_sha256": "c553924fdd7a32cb12d45c0dab2ba1da85007170fa8b5f03c8187eba5fa54c1a",
+    "changed": false
+  },
+  {
+    "release": "scripts/evaluate.py",
+    "original_sha256": "2fbcda03daaf3ceaf3f53b843fc41150ad43eeb2a8881e09d7a5db9bbbcd3337",
+    "release_sha256": "2fbcda03daaf3ceaf3f53b843fc41150ad43eeb2a8881e09d7a5db9bbbcd3337",
+    "changed": false
+  },
+  {
+    "release": "scripts/benchmark.py",
+    "original_sha256": "be4b2c17173f97468b12c6c7b7dbac37d9a9f8d2f7f2402f744dfe7ef71906dc",
+    "release_sha256": "be4b2c17173f97468b12c6c7b7dbac37d9a9f8d2f7f2402f744dfe7ef71906dc",
+    "changed": false
+  },
+  {
+    "release": "scripts/export_onnx.py",
+    "original_sha256": "02bb2def2a4d8a9ae70055299328349f8ebd6c347da937cd6cc78a8deef989a0",
+    "release_sha256": "02bb2def2a4d8a9ae70055299328349f8ebd6c347da937cd6cc78a8deef989a0",
+    "changed": false
+  },
+  {
+    "release": "tests/reference_numpy.py",
+    "original_sha256": "449513188cbeed7ac781af92aab8088b18fbc267dd9797b37857a6186ad778a7",
+    "release_sha256": "449513188cbeed7ac781af92aab8088b18fbc267dd9797b37857a6186ad778a7",
+    "changed": false
+  },
+  {
+    "release": "tests/test_reference_numpy.py",
+    "original_sha256": "a81d24b916d8ac0ff76757e253c3a5e0d549c897bf98c6bac567df30d9294b73",
+    "release_sha256": "a81d24b916d8ac0ff76757e253c3a5e0d549c897bf98c6bac567df30d9294b73",
+    "changed": false
+  },
+  {
+    "release": "tests/test_torch.py",
+    "original_sha256": "f5a604ef51296df160b44d14cd6933e70cb891756c07edd71199916c0bdda1a0",
+    "release_sha256": "f5a604ef51296df160b44d14cd6933e70cb891756c07edd71199916c0bdda1a0",
+    "changed": false
+  },
+  {
+    "release": "tests/test_trainer_v2_cpu.py",
+    "original_sha256": "750c5128f6e5cc30ea129469f02beced10a90b4a918bcb914d05303357efdb30",
+    "release_sha256": "750c5128f6e5cc30ea129469f02beced10a90b4a918bcb914d05303357efdb30",
+    "changed": false
+  },
+  {
+    "release": "tests/demo_copies.py",
+    "original_sha256": "1e9d0adede216c6d21a7b706b33717fee45bc9102359f2a33c3ccc8b53ed5c5c",
+    "release_sha256": "1b9bf98ada562fd76340cd5183c49d5fd9e31b00821439b338c876c21cc03cbf",
+    "changed": true
+  },
+  {
+    "release": "tests/demo_toy_q1_q3.py",
+    "original_sha256": "f029039f20c7b00c5906dcee9e4595ce2ea0f63808b82d72e699c0d1efb56914",
+    "release_sha256": "f029039f20c7b00c5906dcee9e4595ce2ea0f63808b82d72e699c0d1efb56914",
+    "changed": false
+  },
+  {
+    "release": "configs/default.json",
+    "original_sha256": "825897274bc8871c08cecfaca83d1ded19ee7d1f35a35d3b4f60323803f2f583",
+    "release_sha256": "825897274bc8871c08cecfaca83d1ded19ee7d1f35a35d3b4f60323803f2f583",
+    "changed": false
+  },
+  {
+    "release": "configs/panels_example.json",
+    "original_sha256": "a19ef1c3f7303ab7d825f12f859031e09453d7b80a8e8c2b246261e370684513",
+    "release_sha256": "79d394768534bcd9742cdf8aebe1badd2bd927f64919815a570004d89892218a",
+    "changed": true
+  },
+  {
+    "release": "configs/stageA_vfm.json",
+    "original_sha256": "1bc16f697913372f83f47c578dfb10ab6539d18136542cb0a17357b60f5e2a18",
+    "release_sha256": "1bc16f697913372f83f47c578dfb10ab6539d18136542cb0a17357b60f5e2a18",
+    "changed": false
+  },
+  {
+    "release": "configs/stageB_edge.json",
+    "original_sha256": "de4b56e062caf6e9ca902804f2b08e891de84ee42e8b45a38542107a26219a28",
+    "release_sha256": "de4b56e062caf6e9ca902804f2b08e891de84ee42e8b45a38542107a26219a28",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/colour_coupling.json",
+    "original_sha256": "437eb8c8f3634b617257b8cef0e1efe763bf97828208135dd3d3d0c4dbac8b82",
+    "release_sha256": "437eb8c8f3634b617257b8cef0e1efe763bf97828208135dd3d3d0c4dbac8b82",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/frozen_vfm.json",
+    "original_sha256": "498402e4731b59764cce20ae6572e2c5e32ed8898d1e31ec5f6523e9084b9472",
+    "release_sha256": "498402e4731b59764cce20ae6572e2c5e32ed8898d1e31ec5f6523e9084b9472",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/full_rank_parts.json",
+    "original_sha256": "229570cafcc7b08f83ad816365cefe09daaed440374ef4c29dcc1f9de42d4500",
+    "release_sha256": "229570cafcc7b08f83ad816365cefe09daaed440374ef4c29dcc1f9de42d4500",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/no_coupling.json",
+    "original_sha256": "1efe52dcd8a782f5f1533d5eab12688aa3e351200de47e2959a5af28619e2bed",
+    "release_sha256": "1efe52dcd8a782f5f1533d5eab12688aa3e351200de47e2959a5af28619e2bed",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/no_coupling_gate.json",
+    "original_sha256": "980643fd7ccf5252c80f040eb47c1f9bf55c47dbbd195eb836a5a82f2df085ae",
+    "release_sha256": "980643fd7ccf5252c80f040eb47c1f9bf55c47dbbd195eb836a5a82f2df085ae",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/no_hsi_adapter.json",
+    "original_sha256": "3d38e88cfc3e70e96f2ff4ea5ac1bf271066bad17f0596638272484dde32be72",
+    "release_sha256": "3d38e88cfc3e70e96f2ff4ea5ac1bf271066bad17f0596638272484dde32be72",
+    "changed": false
+  },
+  {
+    "release": "configs/ablations/no_vfm.json",
+    "original_sha256": "3f30491fa1b7312cf22e8a337784db3f9c6a059bdc665afe95ef605f619c1258",
+    "release_sha256": "0f6611b643146ea3b0af98277fa083e088aa7a4912d89403b35b96608372051f",
+    "changed": true
+  },
+  {
+    "release": "configs/ablations/self_supervised.json",
+    "original_sha256": "53d54740bf6898c7a869efbda70e8715d28ddb605ca16e5374b548e5c9b86594",
+    "release_sha256": "53d54740bf6898c7a869efbda70e8715d28ddb605ca16e5374b548e5c9b86594",
+    "changed": false
+  },
+  {
+    "release": "metrics/legacy32.py",
+    "original_sha256": "7cd70bf5dc4b815fe82dc06199652317e9bab7972d239ac732282c2f7851a4cf",
+    "release_sha256": "7cd70bf5dc4b815fe82dc06199652317e9bab7972d239ac732282c2f7851a4cf",
+    "changed": false
+  },
+  {
+    "release": "metrics/native.py",
+    "original_sha256": "b5aff0a9aadd4a964cd5b793f346e8e49cb267a6440798357138714fe84ad2e0",
+    "release_sha256": "b5aff0a9aadd4a964cd5b793f346e8e49cb267a6440798357138714fe84ad2e0",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve.py",
+    "original_sha256": "7796ec09f13ddb68300ae9676447a5651f2994590610bffc3eda291019747b9b",
+    "release_sha256": "7796ec09f13ddb68300ae9676447a5651f2994590610bffc3eda291019747b9b",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_conditioned_v12.py",
+    "original_sha256": "7caf461c3d8fc702bfb7da7f2c2f649ea93cc7b1228d696626484b30dabd5ccf",
+    "release_sha256": "7caf461c3d8fc702bfb7da7f2c2f649ea93cc7b1228d696626484b30dabd5ccf",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v10.py",
+    "original_sha256": "3228f58e63e2298efcee06a996e40bf9c7ef6573769d2416aac52153aa852207",
+    "release_sha256": "3228f58e63e2298efcee06a996e40bf9c7ef6573769d2416aac52153aa852207",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v2.py",
+    "original_sha256": "da22abb354d000a8af6761cd89a2509ce4dd0e27db5bfa8056ee04e5004acab1",
+    "release_sha256": "94d06fe2d2d1cf2a32bfe357306dab03ada335dad4deb636a96cba07e4235a92",
+    "changed": true
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v3.py",
+    "original_sha256": "fab98e4cca4ff87c726da86edfbf00cc5e5d240f5a68b7809910fef3b2458cbf",
+    "release_sha256": "fab98e4cca4ff87c726da86edfbf00cc5e5d240f5a68b7809910fef3b2458cbf",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v4.py",
+    "original_sha256": "df3b31e32dba8700ce949bf7f40c8fa1d87307f55dfcc14e954e528a0de227ac",
+    "release_sha256": "df3b31e32dba8700ce949bf7f40c8fa1d87307f55dfcc14e954e528a0de227ac",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v5.py",
+    "original_sha256": "32b804f5be5ab4087b2f76e2908ac37b96bf9dc56591c63070b3c96b87ba3d2a",
+    "release_sha256": "32b804f5be5ab4087b2f76e2908ac37b96bf9dc56591c63070b3c96b87ba3d2a",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v6.py",
+    "original_sha256": "2f1a62b5bfa9e8912ab0ff5199db10ec5f536f4b1fc7064e027b2300ed5f7d60",
+    "release_sha256": "2f1a62b5bfa9e8912ab0ff5199db10ec5f536f4b1fc7064e027b2300ed5f7d60",
+    "changed": false
+  },
+  {
+    "release": "legacy_frozen/native_sieve_v7.py",
+    "original_sha256": "df1ca866273548e6306ff79b2f2d5ceb914c5cb3518c44b93569421bc111e213",
+    "release_sha256": "15f84c751e15917978ee1aa5c8519adba980fae0d2bdc85db16d9923ea6839d4",
+    "changed": true
+  },
+  {
+    "release": "ablation/guarded_trainer_v1.py",
+    "original_sha256": "93b00dd2938a3e895cbee6c23cdd523c0e744c7579a69c5cdf86cd3b18a627d8",
+    "release_sha256": "b9c1fb0c1c798aa2d843009062884cfe91c9e7af725a6a80195d5e5560174b75",
+    "changed": true
+  },
+  {
+    "release": "ablation/train_ablation_entry_v1.py",
+    "original_sha256": "5ddc3423033970be4f7c9eb32a5cc2d2b3c93e4294b6f9dedf47e0a079589add",
+    "release_sha256": "5ddc3423033970be4f7c9eb32a5cc2d2b3c93e4294b6f9dedf47e0a079589add",
+    "changed": false
+  },
+  {
+    "release": "scripts/train.py",
+    "original_sha256": "641df4feea9cf59dbb4d192369e981e7010f204cf9efe37e14c253c35d5992f9",
+    "release_sha256": "641df4feea9cf59dbb4d192369e981e7010f204cf9efe37e14c253c35d5992f9",
+    "changed": false
+  },
+  {
+    "release": "scripts/distill_edge.py",
+    "original_sha256": "6355771adc6ef45887d52993b11df3cf428b345d09c17b1f342aaf44d625dba8",
+    "release_sha256": "6355771adc6ef45887d52993b11df3cf428b345d09c17b1f342aaf44d625dba8",
+    "changed": false
+  }
+]

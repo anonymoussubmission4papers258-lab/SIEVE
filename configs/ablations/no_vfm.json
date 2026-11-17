@@ -1,0 +1,7 @@
+{
+  "_comment": "No foundation model at all: the same heads on the tiny CNN trained from scratch in stage A (run with --no-teacher). Compares 'VFM couplings' with 'learned couplings without a VFM'.",
+  "model": {
+    "backbone": "tiny",
+    "adapter": "xattn"
+  }
+}

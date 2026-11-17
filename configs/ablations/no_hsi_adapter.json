@@ -1,0 +1,6 @@
+{
+  "_comment": "The VFM reads RGB only (no spectral-twin attention).",
+  "model": {
+    "adapter": "none"
+  }
+}
