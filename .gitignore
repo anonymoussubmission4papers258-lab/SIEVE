@@ -1,10 +1,10 @@
 __pycache__/
 *.py[cod]
 .venv/
-data/
-cache/
-runs/
-checkpoints/
+/data/
+/cache/
+/runs/
+/checkpoints/
 *.pt
 *.pth
 *.safetensors
